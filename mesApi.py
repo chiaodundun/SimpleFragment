@@ -4,7 +4,7 @@
 Expected behaviour:
     import mesApi
     try:
-        mesApi.SendMessage("Your message ( DEFAULT: bhai result agya hai) ",[number ( in int form, and with list) ])
+        mesApi.SendMessage("Your message  ",    
     except Exception as e:
         print(e)
 
@@ -62,5 +62,5 @@ class SendMessage:
 
 
 if __name__=='__main__':
-    SendMessage(numbers=[9459372335])
+    pass
 
